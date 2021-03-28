@@ -13,5 +13,9 @@ jobs:
     - uses: actions/first-interaction@v1
       with:
         repo-token: ${{ secrets.GITHUB_TOKEN }}
-        issue-message: 'Message that will be displayed on my branch'
-        pr-message: 'Message that will be displayed on my branch'
+        issue-message: 'Message that will be displayed on my branch !!'
+        pr-message: 'Message that will be displayed on my evil branch !!'
+  myecho:
+   runs-on: ubuntu-latest
+   steps:
+   - run: echo "my evil stuff"
