@@ -18,4 +18,4 @@ jobs:
   myecho:
    runs-on: ubuntu-latest
    steps:
-   - run: echo "my evil stuff"
+   - run: echo "my evil stuff.."
